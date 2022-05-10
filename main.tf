@@ -1,6 +1,6 @@
 module "aptos-fullnode" {
   # download Terraform module from aptos-labs/aptos-core repo
-  source        = "github.com/aptos-labs/aptos-core.git//terraform/fullnode/digital_ocean?ref=main"
+  source        = "github.com/metaworkz/aptos-core.git//terraform/fullnode/terraform-do-storage-fix?ref=main"
   region        = var.region
   era           = var.era
   do_token      = var.do_token
